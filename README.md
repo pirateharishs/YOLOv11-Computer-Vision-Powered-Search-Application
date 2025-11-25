@@ -4,13 +4,13 @@ A Streamlit-based web application that enables intelligent image search using YO
 
 ## Features
 
-- 🔍 **Smart Image Search** - Find images containing specific objects
-- 🎯 **Object Detection** - Powered by YOLOv11 for accurate detection
-- 📦 **Bounding Box Visualization** - See detected objects with labeled boxes
-- 📊 **Metadata Management** - Save and load detection results
-- 🎨 **Visual Results** - Grid display of matching images
-- ⚙️ **Flexible Filtering** - Search with AND/OR logic and count thresholds
-- 💾 **Persistent Storage** - Reuse previously processed metadata
+  **Smart Image Search** - Find images containing specific objects
+  **Object Detection** - Powered by YOLOv11 for accurate detection
+  **Bounding Box Visualization** - See detected objects with labeled boxes
+  **Metadata Management** - Save and load detection results
+  **Visual Results** - Grid display of matching images
+  **Flexible Filtering** - Search with AND/OR logic and count thresholds
+  **Persistent Storage** - Reuse previously processed metadata
 
 ## Project Structure
 
@@ -84,7 +84,7 @@ Model weights: yolo11m.pt
 
 **Sample Output:**
 ```
-✅ Processed 500 images. Metadata saved to:
+ Processed 500 images. Metadata saved to:
 data/processed/coco-val-2017-500/metadata.json
 ```
 
@@ -102,7 +102,7 @@ Metadata file path: data/processed/coco-val-2017-500/metadata.json
 
 **Sample Output:**
 ```
-✅ Successfully loaded metadata for 500 images.
+Successfully loaded metadata for 500 images.
 ```
 
 ### Search Examples
