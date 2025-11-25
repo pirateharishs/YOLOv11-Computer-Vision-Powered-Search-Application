@@ -160,7 +160,7 @@ else :
 
 # Search Functionality
 if st.session_state.metadata:
-    st.header("🔍 Search Engine")
+    st.header("Search Engine")
 
     # "search_params" : {
     #     "search_mode" : "Any of selected classes (OR)",
